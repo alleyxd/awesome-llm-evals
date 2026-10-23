@@ -66,6 +66,7 @@ Treat prompts and LLM features like code: test cases, assertions, CI.
 - [Giskard](https://github.com/Giskard-AI/giskard-oss) - Automatic scans of LLM agents for hallucination, prompt injection and harmful output, plus test suites.
 - [AutoEvals](https://github.com/braintrustdata/autoevals) - Small library of scoring functions (LLM-graded, heuristic and statistical) you can drop into any test.
 - [Hugging Face Evaluate](https://github.com/huggingface/evaluate) - Standard metric implementations (BLEU, ROUGE, exact match and many more) with one API.
+- [Scorio](https://github.com/mohsenhariri/scorio) - Scores recorded outcomes from repeated LLM trials, with Bayesian performance estimates, uncertainty, and weighted rubrics.
 
 ## RAG evaluation
 
