@@ -9,6 +9,7 @@ Every entry is open source, actively maintained and checked by hand. Each sectio
 
 - [Which tool do I need?](#which-tool-do-i-need)
 - [Benchmark harnesses](#benchmark-harnesses)
+- [Quantized models](#quantized-models)
 - [Testing your own application](#testing-your-own-application)
 - [RAG evaluation](#rag-evaluation)
 - [Tracing and online evaluation](#tracing-and-online-evaluation)
@@ -33,6 +34,7 @@ Every entry is open source, actively maintained and checked by hand. Each sectio
 | Measure a RAG pipeline (retrieval quality, faithfulness) | [Ragas](#rag-evaluation) |
 | Watch quality in production and evaluate real traces | [Langfuse](#tracing-and-online-evaluation), [Phoenix](#tracing-and-online-evaluation) or [Opik](#tracing-and-online-evaluation) |
 | Probe a model or app for jailbreaks and prompt injection | [garak](#red-teaming-and-safety) or [PyRIT](#red-teaming-and-safety) |
+| Pick which quant of a local model to run | [quantpicker](#quantized-models) |
 
 ## Benchmark harnesses
 
@@ -47,6 +49,13 @@ Run many standard benchmarks the same way across models.
 - [Evalchemy](https://github.com/mlfoundations/evalchemy) - Runs many reasoning and chat benchmarks behind one interface, built on top of existing harnesses.
 - [simple-evals](https://github.com/openai/simple-evals) - OpenAI's small, readable reference implementations of common benchmarks with zero-shot chat prompts.
 - [OpenAI Evals](https://github.com/openai/evals) - Framework and registry of evals from OpenAI, with templates for model-graded and exact-match evals.
+
+## Quantized models
+
+How much a quant (Q4_K_M, IQ4_XS, ...) loses against the full model, measured rather than guessed.
+
+- [llama.cpp perplexity](https://github.com/ggml-org/llama.cpp/tree/master/tools/perplexity) - llama.cpp's own tool for perplexity and KL divergence against a reference model's logits. The standard way to compare GGUF quants.
+- [quantpicker](https://github.com/alleyxd/quantpicker) - Runs that comparison plus llama-bench for every quant in a Hugging Face repo on your GPU and recommends the fastest one within a quality limit. `pip install quantpicker`.
 
 ## Testing your own application
 
