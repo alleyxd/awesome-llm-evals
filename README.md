@@ -109,10 +109,12 @@ Using a model to grade outputs. Validate the judge against human labels on a sam
 - [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) - Coding problems collected after model release dates to limit contamination.
 - [HumanEval](https://github.com/openai/human-eval) - Function-completion problems checked by unit tests; the original code benchmark.
 - [BigCode Evaluation Harness](https://github.com/bigcode-project/bigcode-evaluation-harness) - Runs many code generation benchmarks with sandboxed execution.
+- [EvalPlus](https://github.com/evalplus/evalplus) - HumanEval and MBPP with many times more tests per problem, which catches code that only passes the original few.
 
 ### Agents and tool use
 
 - [tau2-bench](https://github.com/sierra-research/tau2-bench) - Agents talking to simulated users while following domain policies and calling tools.
+- [Terminal-Bench](https://github.com/harbor-framework/terminal-bench) - Hard real-world tasks an agent has to finish in a terminal, from compiling code to training models, each checked by tests.
 - [Berkeley Function Calling Leaderboard](https://github.com/ShishirPatil/gorilla) - Function and tool calling accuracy across many models (in the Gorilla repository).
 - [AgentBench](https://github.com/THUDM/AgentBench) - LLMs as agents across operating system, database, web and game environments.
 - [OpenAI Frontier Evals](https://github.com/openai/frontier-evals) - OpenAI's open evals for frontier capabilities, such as reproducing research.
