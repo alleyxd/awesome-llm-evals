@@ -64,6 +64,7 @@ Treat prompts and LLM features like code: test cases, assertions, CI.
 - [promptfoo](https://github.com/promptfoo/promptfoo) - Declarative test cases for prompts, models, RAG and agents, run from the CLI or CI, with red teaming built in. Good default.
 - [DeepEval](https://github.com/confident-ai/deepeval) - Pytest-style unit tests for LLM apps with ready-made metrics for relevance, faithfulness, hallucination and more.
 - [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) - NVIDIA's tool for checking agent skills (the Agent Skills format) and measuring how much each one actually changes an agent's results, by comparing runs with and without it.
+- [Eval Skills](https://github.com/ai-evals-course/evals-skills) - Agent skills from the AI Evals course team that walk a coding agent through auditing an eval pipeline, finding error patterns in traces and building product-specific evals.
 - [Giskard](https://github.com/Giskard-AI/giskard-oss) - Automatic scans of LLM agents for hallucination, prompt injection and harmful output, plus test suites.
 - [AutoEvals](https://github.com/braintrustdata/autoevals) - Small library of scoring functions (LLM-graded, heuristic and statistical) you can drop into any test.
 - [Hugging Face Evaluate](https://github.com/huggingface/evaluate) - Standard metric implementations (BLEU, ROUGE, exact match and many more) with one API.
