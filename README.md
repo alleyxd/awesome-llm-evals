@@ -46,6 +46,7 @@ Run many standard benchmarks the same way across models.
 - [OpenCompass](https://github.com/open-compass/opencompass) - Large evaluation platform with many datasets and distributed evaluation, strong on Chinese and multilingual benchmarks.
 - [Lighteval](https://github.com/huggingface/lighteval) - Hugging Face's toolkit for fast evaluation across backends, used for their leaderboards and model releases.
 - [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) - The equivalent of lm-evaluation-harness for multimodal models: images, video and audio.
+- [Inspect Robots](https://github.com/robocurve/inspect-robots) - Inspect-style evals for physical AI: define a robotics benchmark once and run any LLM agent or VLA policy on a real arm, humanoid or simulator, with graded, auditable logs. Early development.
 - [Evalchemy](https://github.com/mlfoundations/evalchemy) - Runs many reasoning and chat benchmarks behind one interface, built on top of existing harnesses.
 - [simple-evals](https://github.com/openai/simple-evals) - OpenAI's small, readable reference implementations of common benchmarks with zero-shot chat prompts.
 - [OpenAI Evals](https://github.com/openai/evals) - Framework and registry of evals from OpenAI, with templates for model-graded and exact-match evals.
