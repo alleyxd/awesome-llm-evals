@@ -71,6 +71,7 @@ Treat prompts and LLM features like code: test cases, assertions, CI.
 - [AutoEvals](https://github.com/braintrustdata/autoevals) - Small library of scoring functions (LLM-graded, heuristic and statistical) you can drop into any test.
 - [Hugging Face Evaluate](https://github.com/huggingface/evaluate) - Standard metric implementations (BLEU, ROUGE, exact match and many more) with one API.
 - [Scorio](https://github.com/mohsenhariri/scorio) - Scores recorded outcomes from repeated LLM trials, with Bayesian performance estimates, uncertainty, and weighted rubrics.
+- [Harlo Agent Eval Kit Lite](https://github.com/miketusa-ctrl/evalkit-lite) - Free MIT pack of golden test cases, 1–5 scoring rubrics, and a promptfoo config for evaluating a support-bot agent, plus a CSV sheet for hand scoring.
 
 ## RAG evaluation
 
