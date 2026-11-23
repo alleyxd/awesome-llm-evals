@@ -122,6 +122,7 @@ Using a model to grade outputs. Validate the judge against human labels on a sam
 - [Terminal-Bench](https://github.com/harbor-framework/terminal-bench) - Hard real-world tasks an agent has to finish in a terminal, from compiling code to training models, each checked by tests.
 - [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) - Browser agents on everyday tasks (booking travel, ordering food, applying for jobs) across 281 tasks on 163 live websites. EMNLP 2026 Findings.
 - [MobileGym](https://github.com/Purewhiter/mobilegym) - Browser-hosted simulation for mobile GUI agents: 28 simulated apps and 416 task templates with programmable state and deterministic checks, run many in parallel. EMNLP 2026.
+- [AgentEnv Framework](https://github.com/scaleapi/agentenv-framework) - Scale AI's Python SDK and CLI for building containerized agent environments and the tasks that grade agents inside them, for evals and RL.
 - [Berkeley Function Calling Leaderboard](https://github.com/ShishirPatil/gorilla) - Function and tool calling accuracy across many models (in the Gorilla repository).
 - [AgentBench](https://github.com/THUDM/AgentBench) - LLMs as agents across operating system, database, web and game environments.
 - [OpenAI Frontier Evals](https://github.com/openai/frontier-evals) - OpenAI's open evals for frontier capabilities, such as reproducing research.
