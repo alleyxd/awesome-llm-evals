@@ -50,6 +50,7 @@ Run many standard benchmarks the same way across models.
 - [Evalchemy](https://github.com/mlfoundations/evalchemy) - Runs many reasoning and chat benchmarks behind one interface, built on top of existing harnesses.
 - [simple-evals](https://github.com/openai/simple-evals) - OpenAI's small, readable reference implementations of common benchmarks with zero-shot chat prompts.
 - [OpenAI Evals](https://github.com/openai/evals) - Framework and registry of evals from OpenAI, with templates for model-graded and exact-match evals.
+- [PACE](https://github.com/mahmoudsajjadi/pace) - Parity-Aware Compute Evaluation CLI, contrast ledger, and [PACE Studio](https://huggingface.co/spaces/sajjadi/pace-studio) for compute-matched multi-agent LLM evaluation ([paper](https://huggingface.co/papers/2611.17610)).
 
 ## Quantized models
 
